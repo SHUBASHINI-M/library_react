@@ -1,0 +1,94 @@
+/* Center the entire container with a minimalist look */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+    background-color: #f0f4f8; /* Softer, subtle background */
+  }
+  
+  /* Style the heading with better spacing and a modern font */
+  .container h1 {
+    font-size: 2.5em;
+    color: #2c3e50; /* Darker, more modern color */
+    margin-bottom: 40px; /* Increased space below the heading */
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* A clean, modern font */
+    font-weight: 700;
+  } 
+  
+  /* Style the buttons with soft hover effects */
+  .container button {
+    margin: 12px;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    font-family: 'Arial', sans-serif;
+    background-color: #576471; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Hover effect for all buttons */
+  .container button:hover {
+    background-color: #44cb48; /* Darker blue on hover */
+    cursor: pointer;
+  }
+  
+  /* Logout button with a modern red color and softer transition */
+  button.logout {
+    background-color: #e74c3c;
+    color: white;
+    font-size: 1.1em;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.logout:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
+  /* Modal styles with rounded corners and cleaner look */
+  .ui.modal {
+    width: 50%;
+    max-width: 600px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Form styling within the modal */
+  .ui.form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Stretch elements to fit the form width */
+    gap: 20px; /* Add space between fields */
+  }
+  
+  .ui.form .field {
+    width: 100%; /* Full width for input fields */
+    padding: 12px;
+    border: 1px solid #bdc3c7; /* Light border */
+    border-radius: 6px; /* Rounded input fields */
+    font-size: 1em;
+  }
+  
+  /* Button inside forms */
+  .ui.form .button {
+    align-self: center; /* Center the button */
+    padding: 12px 20px;
+    background-color: #2ecc71; /* Green for submit button */
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ui.form .button:hover {
+    background-color: #27ae60; /* Darker green on hover */
+  }
+  
